@@ -1,0 +1,10 @@
+name: steam_review_scraper
+channels:
+  - conda-forge
+  - base
+dependencies:
+  - snakemake=7.25.0
+  - graphviz
+  - coreutils>=9.2
+  - requests>=2.28
+  - python-dotenv
